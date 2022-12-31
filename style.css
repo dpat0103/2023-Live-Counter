@@ -1,0 +1,53 @@
+
+.mainbackground{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/fireworksback.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+.countdownHeading {
+    text-align: center;
+    padding-top: 1.2ch;
+
+    font-size: 175px;
+    color: rgb(31, 34, 192);
+    font-weight: 600;
+}
+.timer {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    gap: 20px;
+}
+.timer div {
+    flex-basis: 175px;
+    padding: 10px;
+    text-align: center;
+    font-size: 120px;
+    color: rgb(184, 173, 173);
+}
+.timer div p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: inherit;
+    font-size: 60px;
+    color: rgbrgb(184, 173, 173);
+    margin-bottom: -14px;
+}
+.credits {
+    color: rgb(117, 114, 114);
+    font-weight: bold;
+    font-size: x-large;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 10px;
+
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
